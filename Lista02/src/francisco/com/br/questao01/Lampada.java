@@ -24,4 +24,15 @@ public class Lampada {
             return "Deliga";
         }
     }
+    
+    public static void main(String args []){
+        
+        Lampada luz = new Lampada();
+        
+        luz.ligar();
+        System.out.println(luz.observa());
+        
+        luz.desligar();
+        System.out.println(luz.observa());
+    }
 }
